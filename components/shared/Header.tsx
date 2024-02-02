@@ -10,11 +10,12 @@ const Header = () => {
   return (
     <header className='w-full border-b'>
         <div className='wrapper flex items-center justify-between'>
-            <Link href='/' className='w-36'>
+            <Link href='/' className='w-50 flex'>
                 <Image 
-                    src='/assets/images/logo.svg' width={128} height={38}
+                    src='/assets/images/logo.png' width={55} height={38}
                     alt='EventEase Logo'
                  />
+                 <h1 className='m-3 font-bold text-2xl'>EventEase</h1>
             </Link>
         
         <SignedIn>
