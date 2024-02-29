@@ -1,12 +1,6 @@
 "use client"
 
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { getAllCategories } from "@/lib/actions/category.actions";
 import { ICategory } from "@/lib/database/models/category.model";
 import { formUrlQuery, removeKeysFromQuery } from "@/lib/utils";
@@ -24,7 +18,6 @@ const CategoryFilter = () => {
 
       categoryList && setCategories(categoryList as ICategory[])
     }
-
     getCategories();
   }, [])
 
