@@ -15,7 +15,7 @@ const Footer = () => {
           <h1 className="font-bold text-2xl m-3">EventEase</h1>
         </Link>
 
-        <p>2023 Evently. All Rights reserved.</p>
+        <p>2023 EventEase. All Rights reserved.</p>
       </div>
     </footer>
   )
