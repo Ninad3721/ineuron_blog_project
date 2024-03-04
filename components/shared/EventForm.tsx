@@ -176,7 +176,6 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         width={24}
                         height={24}
                       />
-
                       <Input placeholder="Event location or Online" {...field} className="input-field" />
                     </div>
 
@@ -306,10 +305,8 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
                         width={24}
                         height={24}
                       />
-
                       <Input placeholder="URL" {...field} className="input-field" />
                     </div>
-
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -322,7 +319,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
           type="submit"
           size="lg"
           disabled={form.formState.isSubmitting}
-          className="button col-span-2 w-full"
+          className="button col-span-2 w-full bg-black hover:bg-blue-700"
         >
           {form.formState.isSubmitting ? (
             'Submitting...'
