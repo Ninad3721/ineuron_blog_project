@@ -47,7 +47,6 @@ const CategoryFilter = () => {
       </SelectTrigger>
       <SelectContent>
         <SelectItem value="All" className="select-item p-regular-14">All</SelectItem>
-
         {categories.map((category) => (
           <SelectItem value={category.name} key={category._id} className="select-item p-regular-14">
             {category.name}
